@@ -215,11 +215,21 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="G25-cd-7aX"/>
+                    <navigationItem key="navigationItem" id="G25-cd-7aX">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="7m3-OS-RC7">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VHO-Ac-1Xy">
+                                <rect key="frame" x="-23" y="-15" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="About">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zaz-BE-dv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2820" y="836"/>
+            <point key="canvasLocation" x="2783" y="848"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dr8-vc-Tdp">
@@ -332,7 +342,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aFp-8l-R6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2187" y="235"/>
+            <point key="canvasLocation" x="2151" y="179"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vab-KT-bKi">
@@ -358,8 +368,8 @@
         <image name="2.jpeg" width="275" height="183"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uaI-kr-Tqd"/>
-        <segue reference="K4T-p8-oM6"/>
-        <segue reference="IzK-p6-J5e"/>
+        <segue reference="rju-dW-7Hg"/>
+        <segue reference="Bs2-7d-BfQ"/>
+        <segue reference="6Pt-rN-hQ6"/>
     </inferredMetricsTieBreakers>
 </document>
