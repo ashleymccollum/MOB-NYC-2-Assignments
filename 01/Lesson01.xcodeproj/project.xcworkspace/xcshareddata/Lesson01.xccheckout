@@ -10,14 +10,14 @@
 	<string>Lesson01</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>32684CB271D705B79C018A98B5BF72311251770D</key>
+		<key>145E2571788821B430CF53D15B218613416E74B5</key>
 		<string>https://github.com/ashleymccollum/MOB-NYC-2-Assignments.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>01/Lesson01.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>32684CB271D705B79C018A98B5BF72311251770D</key>
+		<key>145E2571788821B430CF53D15B218613416E74B5</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>32684CB271D705B79C018A98B5BF72311251770D</string>
+	<string>145E2571788821B430CF53D15B218613416E74B5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>32684CB271D705B79C018A98B5BF72311251770D</string>
+			<string>145E2571788821B430CF53D15B218613416E74B5</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Assignments</string>
 		</dict>
