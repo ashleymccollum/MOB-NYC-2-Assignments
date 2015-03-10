@@ -11,22 +11,15 @@ import UIKit
 class SecondViewController: UIViewController {
 
     //TODO five: Display the cumulative sum of all numbers added every time the ‘add’ button is pressed. Hook up the label, text box and button to make this work.
-    @IBOutlet weak var numberInput: UITextField!
-    @IBOutlet weak var totalField: UILabel!
+    @IBOutlet weak var inputField: UITextField!
+    @IBOutlet weak var outputField: UILabel!
     
-    var total = 0
-    var currentTotal = "unknown"
-    
-//    @IBAction func addOperation(sender: AnyObject) {
-//    
-//        
-//        if currentTotal.toInt() != nil {
-//            
-//            var currentTotal.total.toInt! = total.text.toInt() + numberInput.text.toInt
-//            
-//            totalField.text.toInt = currentTotal.text.toInt
-//                        }
-//        
-//
-//    }
+    @IBAction func addAndUpdate(sender: AnyObject) {
+        
+        let inputValue = inputField.text!.toInt()!
+        let currentValue = outputField.text!.toInt()!
+        let sum = inputValue + currentValue
+        outputField.text = String(sum)
+        inputField.text = ""
+    }
 }

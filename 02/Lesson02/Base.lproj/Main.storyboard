@@ -98,7 +98,7 @@
                     <navigationItem key="navigationItem" id="eCL-8y-xIB">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="Yim-2Z-LSM">
                             <connections>
-                                <segue destination="DXI-gN-4Tg" kind="show" id="MTw-0F-HNh"/>
+                                <segue destination="DXI-gN-4Tg" kind="show" id="ewo-zM-MT3"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -154,6 +154,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="addAndUpdate:" destination="DXI-gN-4Tg" eventType="touchUpInside" id="2sb-HK-a95"/>
                                     <action selector="addOperation:" destination="DXI-gN-4Tg" eventType="touchUpInside" id="uAF-EP-FGI"/>
                                 </connections>
                             </button>
@@ -176,8 +177,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="numberInput" destination="dsS-73-FSq" id="PQM-yK-ogp"/>
-                        <outlet property="totalField" destination="qiz-6d-s2d" id="enc-Pj-6Es"/>
+                        <outlet property="inputField" destination="dsS-73-FSq" id="M11-VY-NUB"/>
+                        <outlet property="outputField" destination="qiz-6d-s2d" id="q4a-x5-7hc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFb-9H-Aa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -287,6 +288,8 @@
                                 </state>
                                 <connections>
                                     <action selector="calcFib:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="JL8-nS-aUd"/>
+                                    <action selector="doMath:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="F2Q-ES-liL"/>
+                                    <action selector="fibonacciNumberAtIndex:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="4dd-1A-pgI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print the xth fibonacci number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-q1-6qc">
@@ -311,7 +314,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="input" destination="Y9T-1j-GS4" id="ApF-2m-czJ"/>
                         <outlet property="numberField" destination="Y9T-1j-GS4" id="H45-Pj-DWj"/>
+                        <outlet property="output" destination="Hpk-q1-6qc" id="tUt-Q6-ad0"/>
                         <outlet property="printText" destination="Hpk-q1-6qc" id="19k-RU-Bz1"/>
                     </connections>
                 </viewController>
