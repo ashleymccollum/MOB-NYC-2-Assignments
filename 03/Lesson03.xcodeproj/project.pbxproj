@@ -16,6 +16,7 @@
 		5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */; };
 		8B2632DE1AACCCDD003310D1 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2632DD1AACCCDD003310D1 /* ModelViewController.swift */; };
 		8B2632E21AACD401003310D1 /* hats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B2632E11AACD401003310D1 /* hats.jpg */; };
+		8B4D21811AB24FDC005CB77C /* Mammal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D21801AB24FDC005CB77C /* Mammal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		8B2632DD1AACCCDD003310D1 /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
 		8B2632E11AACD401003310D1 /* hats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hats.jpg; sourceTree = "<group>"; };
+		8B4D21801AB24FDC005CB77C /* Mammal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mammal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				5DCED9A819D8DF0800DE1DC2 /* ArrayTableViewController.swift */,
 				5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */,
+				8B4D21801AB24FDC005CB77C /* Mammal.swift */,
 				5DCED98819D8DC9B00DE1DC2 /* AppDelegate.swift */,
 				5DCED98A19D8DC9B00DE1DC2 /* ViewController.swift */,
 				5DCED98C19D8DC9B00DE1DC2 /* Main.storyboard */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4D21811AB24FDC005CB77C /* Mammal.swift in Sources */,
 				5DCED9A919D8DF0800DE1DC2 /* ArrayTableViewController.swift in Sources */,
 				5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */,
 				5DCED98B19D8DC9B00DE1DC2 /* ViewController.swift in Sources */,
